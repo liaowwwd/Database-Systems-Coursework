@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="课程名:"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="学分:"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/credit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="大类:"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/addtype"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="操作课程类型" />
+
+    <Button
+        android:id="@+id/addcourse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="添加课程"/>
+    <Button
+        android:id="@+id/deletecourse"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="删除课程" />
+    <Button
+        android:id="@+id/lookfor"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="查询结果"/>
+
+</LinearLayout>
